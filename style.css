@@ -20,6 +20,7 @@
 
 body{
     background-color: rgb(203, 243, 240);
+    padding: 3%;
 }
 
 h1 {
@@ -35,6 +36,36 @@ h2 {text-decoration: underline;
 
 p {text-align: justify;
     font-family: monospace;}
+
+#Minha-Foto {
+    padding: 10px;
+    margin: 50px;
+    left: 100px;
+    background-color: aqua;
+
+}
+
+.sobreMim{
+    padding: 50px;
+    top: 200px;
+    width: 60%;
+    position: absolute;
+    right: 50px;
+}
+
+#Minhas-habilidades{
+    margin: 60px;
+}
+
+ul {
+    margin: 60px;
+}
+
+ul.habilidades li:nth-child(odd){
+    background-color: antiquewhite;
+    width: 300px;
+}
+}
 
     
 
